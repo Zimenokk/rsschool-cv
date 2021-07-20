@@ -1,1 +1,0 @@
-https://zimenokk.github.io/rsschool-cv/cv
