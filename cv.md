@@ -27,7 +27,7 @@ HTML/CSS:
 : __2 years__ of experience in university and personal projects.(SASS) ![progress](http://www.yarntomato.com/percentbarmaker/button.php?barPosition=90&leftFill=%23FF0000 "progress")
 
 JavaScript: 
-: __7 months__ of study.![progress](http://www.yarntomato.com/percentbarmaker/button.php?barPosition=60&leftFill=%23FF0000 "progress")
+: __7 months__ of study. ![progress](http://www.yarntomato.com/percentbarmaker/button.php?barPosition=60&leftFill=%23FF0000 "progress")
 
 UI/UX: 
 : __1 year__ of work, more than 10 completed commercial cases.![progress](http://www.yarntomato.com/percentbarmaker/button.php?barPosition=90&leftFill=%23FF0000 "progress")
