@@ -1,0 +1,179 @@
+/* Указываем box sizing */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+/* Убираем внутренние отступы */
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+
+/* Убираем внешние отступы */
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+
+/* Выставляем основные настройки по-умолчанию для body */
+
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+
+/* Упрощаем работу с изображениями */
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/* Указываем понятную периодичность в потоке данных у article*/
+
+article>*+* {
+    margin-top: 1em;
+}
+
+
+/* Наследуем шрифты для инпутов и кнопок */
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+
+/* ___________ */
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: rgb(42, 42, 42);
+    width: 100%;
+    background: -webkit-linear-gradient(225deg, rgb(172, 231, 255) 32%, rgb(243, 255, 227) 81%);
+    background: -moz-linear-gradient(225deg, rgb(172, 231, 255) 32%, rgb(243, 255, 227) 81%);
+    background: linear-gradient(225deg, rgb(172, 231, 255) 32%, rgb(243, 255, 227) 81%);
+}
+
+.container {
+    width: 50%;
+    margin: 10% auto;
+}
+
+.education>p>span {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+.education>p:nth-child(even) {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.education>p:nth-child(odd) {
+    margin-left: 4%;
+    margin-bottom: 2%;
+}
+
+.skills>p:nth-child(even) {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.skills>p:nth-child(odd) {
+    margin-left: 4%;
+    margin-bottom: 2%;
+}
+
+.container>div {
+    margin-top: 2%;
+    padding-bottom: 3%;
+}
+
+.firstInfo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.firstInfo>img {
+    height: 220px;
+    width: 210px;
+    margin-left: 38%;
+}
+
+.firstInfoTxt>p:nth-child(2n) {
+    margin-bottom: 34%;
+    width: 100%;
+}
+
+a {
+    color: rgb(61, 61, 61);
+    text-decoration: underline;
+    margin-right: 2%;
+}
+
+.mainBlock {
+    border-bottom: 4px solid rgba(7, 106, 124, 0.054);
+}
+
+.about>p>span {
+    font-weight: bold;
+}
