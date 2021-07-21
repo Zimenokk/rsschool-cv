@@ -197,3 +197,7 @@ a {
     margin-right: 4%;
     list-style-type: none;
 }
+
+.rsLogo>img {
+    max-width: 18%;
+}
