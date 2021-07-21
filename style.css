@@ -108,7 +108,7 @@ body {
     background: linear-gradient(225deg, rgb(172, 231, 255) 32%, rgb(243, 255, 227) 81%);
 }
 
-.container {
+main {
     width: 50%;
     margin: 10% auto;
 }
@@ -142,7 +142,8 @@ body {
     margin-bottom: 2%;
 }
 
-.container>div {
+main>div,
+section {
     margin-top: 2%;
     padding-bottom: 3%;
 }
@@ -153,10 +154,14 @@ body {
     width: 100%;
 }
 
-.firstInfo>img {
+.firstInfo>figure {
     height: 220px;
     width: 210px;
-    margin-left: 38%;
+    margin-left: 31%;
+}
+
+.firstInfo>figure>img {
+    width: 100%;
 }
 
 .firstInfoTxt>p:nth-child(2n) {
@@ -176,4 +181,19 @@ a {
 
 .about>p>span {
     font-weight: bold;
+}
+
+.topBlock {
+    margin-top: 5%;
+}
+
+.links>ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: -5%;
+}
+
+.links>ul>li {
+    margin-right: 4%;
+    list-style-type: none;
 }
